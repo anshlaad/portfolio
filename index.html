@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ansh Laad - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="glow">Ansh Laad</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+<div class="home-container">
+        <div class="home-text">
+        <h1>a Web Developer</h1>
+        <p>Web Developer | Designer | Innovator</p>
+        <button class="hire-me">Hire Me</button>
+    </div>
+    </div>
+    <div class="home-image">
+        <img src="my.jpg" alt="Ansh Laad" class="profile-img">
+    </div>
+</div>
+ 
+</section>
+
+   
+
+    <section id="about">
+    <div class="about-container">
+        <h2 class="glow-heading">About Me</h2>
+        <p class="about-text">
+            I'm <span class="highlight">Ansh Laad</span>, a passionate Web Developer, Designer & Innovator.  
+            I love creating futuristic websites with sleek UI/UX.  
+            Let's build something amazing together!
+        </p>
+        <a href="#projects" class="glow-button">See My Work</a>
+    </div>
+</section>
+
+
+   <section id="projects">
+    <h2 class="glow-heading">My Projects</h2>
+    <div class="project-grid">
+        <div class="project-card">
+            <h3>Typing Speed Test</h3>
+            <p>Check your typing speed with a dynamic test!</p>
+            <a href="#" class="glow-button">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Brilliant Events</h3>
+            <p>A stylish website for event management.</p>
+            <a href="#" class="glow-button">View Project</a>
+        </div>
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A futuristic portfolio design.</p>
+            <a href="#" class="glow-button">View Project</a>
+        </div>
+    </div>
+</section>
+
+
+    <section id="contact">
+    <h2>Contact Me</h2>
+    <div class="contact-container">
+        <form id="contactForm">
+            <div class="input-box">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <span class="error-message" id="nameError"></span>
+            </div>
+            
+            <div class="input-box">
+                <input type="email" id="email" placeholder="Your Email" required>
+                <span class="error-message" id="emailError"></span>
+            </div>
+            
+            <div class="input-box">
+                <textarea id="message" placeholder="Your Message" required></textarea>
+                <span class="error-message" id="messageError"></span>
+            </div>
+
+            <button type="submit" class="glow-button">Send</button>
+        </form>
+        <p id="confirmationMessage"></p>
+    </div>
+</section>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
